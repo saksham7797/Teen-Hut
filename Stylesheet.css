@@ -1,0 +1,102 @@
+@font-face {
+    font-family: debata;
+    src: url(Debata-Regular.otf);
+}
+@font-face {
+    font-family: uxumregular;
+    src: url(uxumregular.otf);
+}
+@font-face {
+    font-family: uxumbold;
+    src: url(uxumbold.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+}
+
+.rectangle-icon {
+    width: 100vw;
+    height: 50vh;
+    border-bottom-right-radius: 300px;
+    position: absolute;
+}
+
+.rectangle-icon2 {
+    height: 551.4px;
+    position: absolute;
+    background-color: #004A4E;
+    z-index: -1;
+    display: block;
+    width: 100vw;
+}
+
+.rectangle-icon3 {
+    height: 100vh;
+    background-color: #003132;
+    z-index: -2;
+    width: 100vw;
+    position: absolute;
+
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    height: 16vh;
+    width: 8vw;
+    ;
+}
+
+.name {
+    position: absolute;
+    z-index: 2;
+    font-family: debata;
+    display: inline-block;
+    font-size: 44px;
+    top: 33px;
+    left: 111px;
+    color: beige;
+}
+
+.signup {
+    position: absolute;
+    z-index: 2;
+    justify-self: right;
+    font-family: debata;
+    color: beige;
+    right: 245px;
+    top: 62px;
+    font-size: 23px;
+}
+
+.login {
+    position: absolute;
+    z-index: 2;
+    justify-self: right;
+    font-family: debata;
+    color: beige;
+    right: 124px;
+    top: 62px;
+    font-size: 23px;
+}
+
+.div{
+position: absolute;
+    z-index: 2;
+    justify-self: right;
+    background-color: #02595D;
+    right: 111px;
+    top: 58px;
+    width: 122px;
+    height: 47px;
+    border-radius: 14px
+
+
+    
+}
