@@ -2,10 +2,12 @@
     font-family: debata;
     src: url(Debata-Regular.otf);
 }
+
 @font-face {
     font-family: uxumregular;
     src: url(uxumregular.otf);
 }
+
 @font-face {
     font-family: uxumbold;
     src: url(uxumbold.otf);
@@ -20,11 +22,13 @@ body {
     position: relative;
 }
 
-.rectangle-icon {
-    width: 100vw;
-    height: 50vh;
+.rectange-icon{
     border-bottom-right-radius: 300px;
     position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50vh;
+    background-color: #179E9E;
 }
 
 .rectangle-icon2 {
@@ -47,10 +51,9 @@ body {
 
 .logo {
     position: absolute;
-    z-index: 1;
-    height: 16vh;
-    width: 8vw;
-    ;
+    z-index: 2;
+    width: 110px;
+    height: 110px;
 }
 
 .name {
@@ -58,10 +61,10 @@ body {
     z-index: 2;
     font-family: debata;
     display: inline-block;
-    font-size: 44px;
-    top: 33px;
-    left: 111px;
-    color: beige;
+    font-size: 40px;
+    top: 30px;
+    left: 105px;
+    color: white;
 }
 
 .signup {
@@ -69,9 +72,9 @@ body {
     z-index: 2;
     justify-self: right;
     font-family: debata;
-    color: beige;
-    right: 245px;
-    top: 62px;
+    color: white;
+    right: 184px;
+    top: 29px;
     font-size: 23px;
 }
 
@@ -80,23 +83,80 @@ body {
     z-index: 2;
     justify-self: right;
     font-family: debata;
-    color: beige;
-    right: 124px;
-    top: 62px;
+    right: 65px;
+    top: 30px;
     font-size: 23px;
 }
 
-.div{
-position: absolute;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.div {
+    position: absolute;
     z-index: 2;
     justify-self: right;
     background-color: #02595D;
-    right: 111px;
-    top: 58px;
+    right: 53px;
+    top: 27px;
     width: 122px;
     height: 47px;
     border-radius: 14px
+}
 
+.head1 {
+    position: absolute;
+    z-index: 2;
+    justify-self: center;
+    font-family: uxumbold;
+    color: white;
+    font-size: 72px;
+    top: 100px;
+    right: 400px;
+}
 
-    
+.head2 {
+    position: absolute;
+    z-index: 2;
+    justify-self: center;
+    font-family: uxumbold;
+    color: white;
+    font-size: 80px;
+    top: 171px;
+    right: 630px;
+}
+
+.circle {
+    position: absolute;
+    height: 380px;
+    width: 380px;
+    background-color: #02747A;
+    border-radius: 50%;
+    right: 10px;
+    z-index: 2;
+    top: 95px;
+}
+
+.png {
+    position: absolute;
+    z-index: 3;
+    height: 330px;
+    width: 330px;
+    right: 38px;
+    top: 21px;
+}
+
+.button1{
+    left: 603px;
+    position: absolute;
+    z-index: 2;
+    font-family: uxumregular;
+    color: white;
+    top: 269px;
+    font-size: 21px;
+    background-color: #02595D;
+    padding: 17px 23px;
+    border-radius: 12px;
+    letter-spacing: 7%;
 }
